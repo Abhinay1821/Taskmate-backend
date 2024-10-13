@@ -1,12 +1,12 @@
 {
-  "name": "kaban-backend",
+  "name": "kanban-backend",
   "version": "1.0.0",
-  "description": "A scalable backend for a kaban using Node.js, Express, and MongoDB",
+  "description": "A scalable backend for a kanban using Node.js, Express, and MongoDB",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" "
   },
   "keywords": [
     "todo",

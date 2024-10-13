@@ -1,4 +1,4 @@
-import { Board, Task } from '../models/kaban.js';
+import { Board, Task } from '../models/kanban.js';
 
 // Get all tasks
 export async function getTasks(req, res) {

@@ -16,10 +16,10 @@ app.use(json());
 
 // Load routes (convert require to import)
 import authRoutes from './routes/auth.js';
-import kabanRoutes from './routes/kaban.js';
+import kanbanRoutes from './routes/kanban.js';
 
 app.use('/api/auth', authRoutes);
-app.use('/api/kaban', kabanRoutes);
+app.use('/api/kanban', kanbanRoutes);
 
 // Start the server
 const PORT = process.env.PORT || 5000;
